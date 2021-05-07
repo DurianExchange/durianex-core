@@ -1,4 +1,4 @@
-// https://github.com/Uniswap/uniswap-v2-core/issues/102
+// Refer issue https://github.com/Uniswap/uniswap-v2-core/issues/102
 
 const { bytecode } = require('../build/contracts/DurianPair.json');
 const { keccak256 } = require('@ethersproject/solidity');

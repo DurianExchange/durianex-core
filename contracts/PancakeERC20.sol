@@ -1,5 +1,14 @@
 pragma solidity =0.5.16;
 
+/*
+ * DurianExchange
+ * App:             https://durian.exchange
+ * Medium:          https://durianexchange.medium.com
+ * Twitter:         https://twitter.com/DurianExchange
+ * Announcements:   https://blog.durian.exchange
+ * GitHub:          https://github.com/DurianExchange
+ */
+
 import './interfaces/IPancakeERC20.sol';
 import './libraries/SafeMath.sol';
 
