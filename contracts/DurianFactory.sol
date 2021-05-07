@@ -9,8 +9,8 @@ pragma solidity =0.5.16;
  * GitHub:          https://github.com/DurianExchange
  */
 
-import './interfaces/IPancakeFactory.sol';
-import './PancakePair.sol';
+import './interfaces/IDurianFactory.sol';
+import './DurianPair.sol';
 
 contract PancakeFactory is IPancakeFactory {
     bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(PancakePair).creationCode));

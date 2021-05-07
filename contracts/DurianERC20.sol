@@ -9,7 +9,7 @@ pragma solidity =0.5.16;
  * GitHub:          https://github.com/DurianExchange
  */
 
-import './interfaces/IPancakeERC20.sol';
+import './interfaces/IDurianERC20.sol';
 import './libraries/SafeMath.sol';
 
 contract PancakeERC20 is IPancakeERC20 {

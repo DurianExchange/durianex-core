@@ -9,13 +9,13 @@ pragma solidity =0.5.16;
  * GitHub:          https://github.com/DurianExchange
  */
 
-import './interfaces/IPancakePair.sol';
-import './PancakeERC20.sol';
+import './interfaces/IDurianPair.sol';
+import './DurianERC20.sol';
 import './libraries/Math.sol';
 import './libraries/UQ112x112.sol';
 import './interfaces/IERC20.sol';
-import './interfaces/IPancakeFactory.sol';
-import './interfaces/IPancakeCallee.sol';
+import './interfaces/IDurianFactory.sol';
+import './interfaces/IDurianCallee.sol';
 
 contract PancakePair is IPancakePair, PancakeERC20 {
     using SafeMath  for uint;
