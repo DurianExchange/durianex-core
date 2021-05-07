@@ -13,17 +13,15 @@ module.exports = {
     testnet: {
       provider: () => new HDWalletProvider(mnemonicTestnet, `https://data-seed-prebsc-1-s1.binance.org:8545`, 0, 10),
       network_id: 97,
-      confirmations: 10,
+      confirmations: 3,
       timeoutBlocks: 200,
-      //skipDryRun: false,
-      // from: '0xE375D169F8f7bC18a544a6e5e546e63AD7511581'
+
     },
     bsc: {
       provider: () => new HDWalletProvider(mnemonic, `https://bsc-dataseed1.binance.org`),
       network_id: 56,
-      confirmations: 10,
+      confirmations: 3,
       timeoutBlocks: 200,
-      //skipDryRun: false
     },
   },
 
@@ -37,8 +35,8 @@ module.exports = {
     solc: {
       //https://forum.openzeppelin.com/t/how-to-deploy-uniswapv2-on-ganache/3885
       version: "0.5.16",    // Fetch exact version from solc-bin (default: truffle's version)
-      // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
-      settings: {          // See the solidity docs for advice about optimization and evmVersion
+      // docker: true,      // Use "0.5.1" you've installed locally with docker (default: false)
+      settings: {           // See the solidity docs for advice about optimization and evmVersion
         optimizer: {
           enabled: true,
           runs: 999999
