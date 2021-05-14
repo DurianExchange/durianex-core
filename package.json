@@ -1,5 +1,5 @@
 {
-  "name": "durianexchange-core-contracts",
+  "name": "@durianexchange/swap-core",
   "description": "Core contracts for the Durian Exchange protocol",
   "version": "1.0.0",
   "homepage": "https://durian.exchange",
