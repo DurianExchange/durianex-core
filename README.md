@@ -1,6 +1,6 @@
-# DurianExchange Factory
+# Durian Exchange Factory
 
-In-depth documentation on DurianExchange is available at [docs.durian.exchange](https://docs.durian.exchange/).
+In-depth documentation on Durian Exchange is available at [docs.durian.exchange](https://docs.durian.exchange/).
 
 # Local Development
 
