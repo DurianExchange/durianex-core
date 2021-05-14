@@ -39,7 +39,6 @@
     "compile": "waffle .waffle.json",
     "pretest": "yarn compile",
     "test": "mocha",
-    "prepublishOnly": "yarn test",
     "flatten:factory": "truffle-flattener contracts/DurianFactory.sol --output ./DurianFactory_flat.sol"
 
   },
