@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
 /*
- * DurianExchange
+ * Durian Exchange
  * App:             https://durian.exchange
  * Medium:          https://durianexchange.medium.com
  * Twitter:         https://twitter.com/DurianExchange
